@@ -1,0 +1,7 @@
+# Database Configuration Template
+# Copy this file to src/main/resources/db.properties and set your local credentials
+
+db.url=jdbc:mysql://localhost:3306/smart_ecommerce?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+db.username=root
+db.password=YOUR_PASSWORD
+db.driver=com.mysql.cj.jdbc.Driver
